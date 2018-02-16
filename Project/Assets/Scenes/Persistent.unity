@@ -140,6 +140,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64d53937e84a64e09ae49dfb9258a615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allRoundData:
+  - name: Round Zero
+    timeLimitInSecond: 30
+    pintsAddedForCorrectAnswer: 10
+    questions:
+    - questionText: Are you a lion?
+      answers:
+      - answerText: Yes
+        isCorrect: 0
+      - answerText: No
+        isCorrect: 1
+    - questionText: Where do you live?
+      answers:
+      - answerText: On the Moon.
+        isCorrect: 0
+      - answerText: On the land
+        isCorrect: 1
+      - answerText: In the sea
+        isCorrect: 0
+    - questionText: What do frog eat?
+      answers:
+      - answerText: Fly
+        isCorrect: 1
+      - answerText: Pizza
+        isCorrect: 0
 --- !u!4 &1250543017
 Transform:
   m_ObjectHideFlags: 0

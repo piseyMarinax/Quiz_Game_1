@@ -8,5 +8,5 @@ public class RoundData
 	 public string name;
 	 public int timeLimitInSecond;
 	 public int pintsAddedForCorrectAnswer;
-	 public QuestionData questions;
+	 public QuestionData[] questions;
 }
