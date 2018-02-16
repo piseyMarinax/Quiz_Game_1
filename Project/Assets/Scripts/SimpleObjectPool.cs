@@ -50,6 +50,9 @@ public class SimpleObjectPool : MonoBehaviour
 
             // add the instance to the collection of inactive instances
             inactiveInstances.Push(toReturn);
+
+			// set parent to return object
+			toReturn.transform.SetParent(this.transform);
         }
         // otherwise, just destroy it
         else
